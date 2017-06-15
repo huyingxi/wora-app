@@ -15,10 +15,15 @@
 
 <ion-content padding>
 
+
+
   <ion-card>
-    <ion-card-content>
-      {{ film.opening_crawl }}
+    <ion-card-content [innerHTML]="film.description">
+
     </ion-card-content>
   </ion-card>
+
+
+
 
 </ion-content>

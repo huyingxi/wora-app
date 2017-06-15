@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>北邮人论坛十大</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+
+
+<ion-list>
+  <button
+    ion-item
+    *ngFor="let film of (films | async)"
+    (click)="openDetails(film)"
+  >
+    {{ film.title }}
+  </button>
+</ion-list>
+
+</ion-content>

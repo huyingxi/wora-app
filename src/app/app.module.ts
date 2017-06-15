@@ -5,24 +5,26 @@ import { HttpModule } from '@angular/http';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
 import { DetailPage } from '../pages/detail/detail';
-import { HomePage } from '../pages/home/home';
+import { LinkPage } from '../pages/link/link';
 import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import {ToptenPage} from "../pages/topten/topten";
+import {ArticlePage} from "../pages/article/article";
+import {ActivityPage} from "../pages/activity/activity";
 
 // import { HTTP } from '@ionic-native/http';
 
 @NgModule({
   declarations: [
     MyApp,
-    AboutPage,
-    ContactPage,
     DetailPage,
-    HomePage,
+    ToptenPage,
+    LinkPage,
+    ArticlePage,
+    ActivityPage,
     TabsPage
   ],
   imports: [
@@ -33,10 +35,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    AboutPage,
-    ContactPage,
     DetailPage,
-    HomePage,
+    ToptenPage,
+    LinkPage,
+    ArticlePage,
+    ActivityPage,
     TabsPage
   ],
   providers: [
