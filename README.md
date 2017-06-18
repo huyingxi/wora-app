@@ -82,4 +82,4 @@ npm run ionic:serve
 
 
 ## my bupt demo gif
-![img]()
+![img](https://github.com/huyingxi/wora-app/heihei.gif)
